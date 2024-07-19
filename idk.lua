@@ -658,3 +658,13 @@ game:GetService("ReplicatedStorage").Sukuna2.BeowulfRemote:FireServer(ohString1)
             tool.Parent = game.Players.LocalPlayer.Backpack
    end    
 })
+
+
+Tab:AddButton(
+    {
+        Name = "Shutdown",
+        Callback = function()
+            OrionLib:Destroy()
+        end
+    }
+)
